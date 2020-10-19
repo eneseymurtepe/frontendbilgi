@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web development, front-end ve back-end hakkında güncel bilgiler">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, HTML, CSS, front end kime denir, front end ne iş yapar, front-end nedir, web development, back-end teknolojileri, back-end nedir, html kod örnekleri, css kod örnekleri, nasıl yapılır, front end hakkında bilgi">
+    <meta name="author" content="Enes EYMURTEPE">
+    <link rel="shortcut icon" type="img/indir-removebg-preview.png" href="img/indir-removebg-preview.png" />
     <link type="text/css" rel="stylesheet" href="css/reset.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Anasayfa</title>
+    <title>CSS3 Nedir?</title>
 </head>
 
 <body class="mx-auto">
-
+    <a name="yukari"></a>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
@@ -50,7 +54,8 @@
                                 Tarihçesi ve Sayfa Yapısı</a>
                             <a class="dropdown-item text-danger font-weight-bold" href="semantic.html">Semantic HTML
                                 Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="html5kodornekleri.html">HTML5 Kod Örnekleri</a>
+                            <a class="dropdown-item text-danger font-weight-bold" href="html5kodornekleri.html">HTML5
+                                Kod Örnekleri</a>
                         </div>
                     </li>
 
@@ -65,7 +70,8 @@
                             <a class="dropdown-item text-danger font-weight-bold" href="css3nedir.html">CSS3 Nedir?</a>
                             <a class="dropdown-item text-danger font-weight-bold"
                                 href="css3tarihcesiveozellik.html">CSS3'ün Temel Özellikleri Tarihçesi</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="css3syntax.html">CSS3 Kod Örnekleri</a>
+                            <a class="dropdown-item text-danger font-weight-bold" href="css3syntax.html">CSS3 Kod
+                                Örnekleri</a>
                         </div>
                     </li>
 
@@ -77,8 +83,10 @@
                             </i>
                         </a>
                         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-danger font-weight-bold" href="jsnedir.html">JavaScript Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="jstarihcesi.html">JavaScript'in Tarihçesi</a>
+                            <a class="dropdown-item text-danger font-weight-bold" href="jsnedir.html">JavaScript
+                                Nedir?</a>
+                            <a class="dropdown-item text-danger font-weight-bold" href="jstarihcesi.html">JavaScript'in
+                                Tarihçesi</a>
 
                         </div>
                     </li>
@@ -89,7 +97,7 @@
 
     </nav>
 
-    <a name="yukari"></a>
+
 
 
 
@@ -143,100 +151,128 @@
     </header>
 
 
-    <main style="background-image: url('img/dark-low-poly-background_1048-7971_photos_v2_faces_x2.jpg');">
+    <main>
 
-        <section>
+        <section id="features">
 
             <div class="container">
-                <div class="css-banner1">
-                    <img src="img/css3-nedir.jpg" alt="css3nedir">
+
+                <img src="img/css3-nedir.jpg" alt="css3nedir" class="img-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="css-header1 text-center">
+                            <h1 class="font-weight-bold d-inline-block mt-3">CSS3 Nedir?</h1>
+                        </div>
+
+                        <div class="css-text1 text-left">
+
+                            <p class="lead">
+                                CSS3'ün ne olduğunu açıklamadan önce CSS'in ne olduğunu bilmekte fayda var.
+
+                                Açılımı Cascading Style Sheets olan CSS, dilimizde "basamaklı stil sayfaları" anlamına
+                                gelmektedir.
+                                HTML ile yazılan kodların görsel açıdan daha zengin olmasını sağlamak için kullanılır.
+                                Örneğin;
+                                CSS ile paragrafların metin renklerini tek bir noktadan değiştirebilirsiniz. Burası
+                                önemlidir;
+                                çünkü CSS piyasaya çıkmadan önce her bir HTML etiketi için ayrı ayrı stil tanımlaması
+                                yapmamız
+                                gerekiyordu. CSS ile birlikte bu sorun ortadan kalktı. Artık tek bir dosya ile tüm
+                                sayfalarımızdaki içerikleri şekillendirebiliriz. <br><br>
+
+                                CSS'nin ilk harfi olan cascading (basamaklı) terimi ise ismini hiyerarşik olarak
+                                istenilen
+                                nesneye basamak basamak ulaşılabilir olmasından almaktadır. Örneğin bir alan (div)
+                                içindeki bir
+                                paragrafın ilk satırına
+                                div > p:first-line basamak yolu ile kolayca ulaşılabilir ve ulaşılan bu satır, tek bir
+                                kod
+                                satırı ile projenin tüm sayfalarında görsel olarak değiştirilebilir. <br><br>
+
+                                CSS3, CSS'in daha önceki sürümleri üzerine geliştirilmiş üçüncü ve son sürümüdür. Bu
+                                sürüm ile
+                                birlikte @media-queries, box-shadow, text-shadow, translate, transform, transition gibi
+                                birçok
+                                güzel özellik gelmiş, artık web siteleri görsel açıdan daha güçlü bir konuma erişmiştir.
+
+                                CSS3 ile birlikte gelen bir diğer özellik, font-face teknolojisidir. <br><br> CSS'ten
+                                önce
+                                sayfamıza
+                                istediğimiz bir font'u yükleyemiyorduk. Font gösterimleri için kullanıcının
+                                bilgisayarında
+                                yayınlamak istediğimiz fontun bulunması gerekiyordu. Bunu yapamadığımız zamanlarda
+                                sadece
+                                belirli resimlerde ilgili font'u kullanmak zorunda kalıyorduk. CSS3 ile birlikte gelen
+                                @font-face kullanımı ile birlikte artık kullanıcının işletim sistemi ne olursa olsun
+                                dilediğimiz
+                                font'u gösterebiliyoruz.
+
+                                CSS3'ün öğrenimi ve kullanımı oldukça basittir. Yazılım öğrenilmeye başlamadan önce ilk
+                                olarak
+                                HTML ve CSS öğrenilmesi tavsiye edilir; çünkü kişinin kodlarla tanışması HTML ve CSS ile
+                                daha
+                                yerindedir.
+
+                                CSS3'ü öğrendikçe bağımlısı olacak, daha önce yapmak isteyip de yapamadığınız
+                                tasarımları çok
+                                daha kolay bir şekilde yapabileceğinizi fark edeceksiniz.
+
+
+                                CSS3 sayesinde gelişen web teknolojilerinin ihtiyaçlarına yönelik birçok yenilik
+                                sunulmuştur.
+                                Bunlardan başlıcaları;
+                                <br><br>
+                            </p>
+                            <p class="lead">
+                                <i class="fal fa-stream"></i> <span class="font-weight-bold mr-1"> Text Properties (Yazı
+                                    özellikleri): </span> Yazıya gölge verme
+                                (text-shadow), text-stroke, tarayıcı
+                                uyumlu özellikler ve RGB kullanarak saydamlık verme gibi birçok özellik, web
+                                sayfalarında
+                                kullanılan yazılara etki edebilir hale gelmiştir.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Layout Properties
+                                    (Düzen
+                                    özellikleri): </span> Kenarlıkları oval yapma
+                                (border-radius), box-shadow (gölgelendirme), çoklu yazı kolonları (multi-column text) ve
+                                donukluk (opacity) gibi özellikler de CSS3 ile birlikte gelmiştir.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Animated Property
+                                    Transitions (Animasyonlu Özellik Geçişleri): </span>
+                                CSS3 ile birlikte gelen en etkileyici özelliklerden biri, HTML objelerinin özelliklerine
+                                animasyonlu geçiş efektleri tanımlayabilmektir. Bu özellik ile ilgili örnekli
+                                anlatımları CSS3
+                                makaleleri altından takip edebilirsiniz.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Border Image
+                                    (Kenarlık
+                                    Resimleri): </span> CSS3 ile birlikte objelere
+                                uygulanan kenarlıklar için resim tanımlaması yapılır hale gelmiştir.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Gradients
+                                    (Geçişler):
+                                </span> Web sayfasındaki resimlere ve uygun
+                                objelere, linear gradients (doğrusal geçişler), radial gradients (radyal geçişler)
+                                mozilla
+                                webkitleri gibi şık stil düzenlemeleri de yine CSS3 ile yapılabilmektedir.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1"> 2D / 3D
+                                    Transformations
+                                    (Dönüşümler):</span> CSS3 ile birlikte nesnelere
+                                2 veya 3 boyutlu dönüşüm efektleri verilebilmektedir.
+                                <br>
+                                <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Web
+                                    Fontları:</span> CSS3
+                                ile birlikte gömülü ve her browsera ayrı
+                                olarak uyarlanabilecek yazı fontları ve formatları geliştirilmiştir. Ayrıca mobil
+                                cihazlar için
+                                kullanılabilecek yeni fontlar da CSS3 ile birlikte gelen kullanışlı yeniliklerdendir.
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="css-header1 text-center">
-                    <h1 class="font-weight-bold d-inline-block mt-3">CSS3 Nedir?</h1>
-                </div>
-
-                <div class="css-text1 text-left">
-
-                    <p class="lead">
-                        CSS3'ün ne olduğunu açıklamadan önce CSS'in ne olduğunu bilmekte fayda var.
-
-                        Açılımı Cascading Style Sheets olan CSS, dilimizde "basamaklı stil sayfaları" anlamına
-                        gelmektedir.
-                        HTML ile yazılan kodların görsel açıdan daha zengin olmasını sağlamak için kullanılır. Örneğin;
-                        CSS ile paragrafların metin renklerini tek bir noktadan değiştirebilirsiniz. Burası önemlidir;
-                        çünkü CSS piyasaya çıkmadan önce her bir HTML etiketi için ayrı ayrı stil tanımlaması yapmamız
-                        gerekiyordu. CSS ile birlikte bu sorun ortadan kalktı. Artık tek bir dosya ile tüm
-                        sayfalarımızdaki içerikleri şekillendirebiliriz. <br><br>
-
-                        CSS'nin ilk harfi olan cascading (basamaklı) terimi ise ismini hiyerarşik olarak istenilen
-                        nesneye basamak basamak ulaşılabilir olmasından almaktadır. Örneğin bir alan (div) içindeki bir
-                        paragrafın ilk satırına
-                        div > p:first-line basamak yolu ile kolayca ulaşılabilir ve ulaşılan bu satır, tek bir kod
-                        satırı ile projenin tüm sayfalarında görsel olarak değiştirilebilir. <br><br>
-
-                        CSS3, CSS'in daha önceki sürümleri üzerine geliştirilmiş üçüncü ve son sürümüdür. Bu sürüm ile
-                        birlikte @media-queries, box-shadow, text-shadow, translate, transform, transition gibi birçok
-                        güzel özellik gelmiş, artık web siteleri görsel açıdan daha güçlü bir konuma erişmiştir.
-
-                        CSS3 ile birlikte gelen bir diğer özellik, font-face teknolojisidir. <br><br> CSS'ten önce
-                        sayfamıza
-                        istediğimiz bir font'u yükleyemiyorduk. Font gösterimleri için kullanıcının bilgisayarında
-                        yayınlamak istediğimiz fontun bulunması gerekiyordu. Bunu yapamadığımız zamanlarda sadece
-                        belirli resimlerde ilgili font'u kullanmak zorunda kalıyorduk. CSS3 ile birlikte gelen
-                        @font-face kullanımı ile birlikte artık kullanıcının işletim sistemi ne olursa olsun dilediğimiz
-                        font'u gösterebiliyoruz.
-
-                        CSS3'ün öğrenimi ve kullanımı oldukça basittir. Yazılım öğrenilmeye başlamadan önce ilk olarak
-                        HTML ve CSS öğrenilmesi tavsiye edilir; çünkü kişinin kodlarla tanışması HTML ve CSS ile daha
-                        yerindedir.
-
-                        CSS3'ü öğrendikçe bağımlısı olacak, daha önce yapmak isteyip de yapamadığınız tasarımları çok
-                        daha kolay bir şekilde yapabileceğinizi fark edeceksiniz.
-
-
-                        CSS3 sayesinde gelişen web teknolojilerinin ihtiyaçlarına yönelik birçok yenilik sunulmuştur.
-                        Bunlardan başlıcaları;
-                        <br><br>
-                    </p>
-                    <p class="lead">
-                        <i class="fal fa-stream"></i> <span class="font-weight-bold mr-1"> Text Properties (Yazı
-                            özellikleri): </span> Yazıya gölge verme
-                        (text-shadow), text-stroke, tarayıcı
-                        uyumlu özellikler ve RGB kullanarak saydamlık verme gibi birçok özellik, web sayfalarında
-                        kullanılan yazılara etki edebilir hale gelmiştir.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Layout Properties (Düzen
-                            özellikleri): </span> Kenarlıkları oval yapma
-                        (border-radius), box-shadow (gölgelendirme), çoklu yazı kolonları (multi-column text) ve
-                        donukluk (opacity) gibi özellikler de CSS3 ile birlikte gelmiştir.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Animated Property
-                            Transitions (Animasyonlu Özellik Geçişleri): </span>
-                        CSS3 ile birlikte gelen en etkileyici özelliklerden biri, HTML objelerinin özelliklerine
-                        animasyonlu geçiş efektleri tanımlayabilmektir. Bu özellik ile ilgili örnekli anlatımları CSS3
-                        makaleleri altından takip edebilirsiniz.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Border Image (Kenarlık
-                            Resimleri): </span> CSS3 ile birlikte objelere
-                        uygulanan kenarlıklar için resim tanımlaması yapılır hale gelmiştir.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Gradients (Geçişler):
-                        </span> Web sayfasındaki resimlere ve uygun
-                        objelere, linear gradients (doğrusal geçişler), radial gradients (radyal geçişler) mozilla
-                        webkitleri gibi şık stil düzenlemeleri de yine CSS3 ile yapılabilmektedir.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1"> 2D / 3D Transformations
-                            (Dönüşümler):</span> CSS3 ile birlikte nesnelere
-                        2 veya 3 boyutlu dönüşüm efektleri verilebilmektedir.
-                        <br>
-                        <i class="fal fa-stream mt-4"></i> <span class="font-weight-bold mr-1">Web Fontları:</span> CSS3
-                        ile birlikte gömülü ve her browsera ayrı
-                        olarak uyarlanabilecek yazı fontları ve formatları geliştirilmiştir. Ayrıca mobil cihazlar için
-                        kullanılabilecek yeni fontlar da CSS3 ile birlikte gelen kullanışlı yeniliklerdendir.
-                    </p>
-
-                </div>
-
         </section>
 
 
@@ -244,116 +280,125 @@
 
     </main>
 
-    <article style="background-image: url('img/bg-article-1.jpg'); background-position: center;">
-
-        <div class="container w-100 col-md-12">
-
-            <h1 class="font-weight-bold text-center">
-                Front-End Developer <br> Alt Unvanları</h1>
-            <ul class="list-group">
-                <li class="list-group-item bg-success font-weight-bold">CSS/HTML Developer</li>
-                <li class="list-group-item active font-weight-bold">Front-End Web Developer</li>
-                <li class="list-group-item bg-danger font-weight-bold">Front-End JavaScript Developer</li>
-                <li class="list-group-item bg-warning font-weight-bold">Front-End Software Developer</li>
-                <li class="list-group-item bg-info font-weight-bold">Front-End JavaScript Application Developer</li>
-            </ul>
-
-            <ul class="list-group">
-                <li class="list-group-item bg-info font-weight-bold">Mobile/Tablet Front-end Developer</li>
-                <li class="list-group-item bg-warning font-weight-bold">Front-End SEO Expert</li>
-                <li class="list-group-item bg-danger font-weight-bold">Front-End Accessibility Expert</li>
-                <li class="list-group-item active font-weight-bold">Web/Front-End User Interface Developer</li>
-                <li class="list-group-item bg-success font-weight-bold">Front-End Dev. Opts</li>
-                <li class="list-group-item bg-dark text-muted font-weight-bold">Front-End Testing/QA</li>
-            </ul>
-
-        </div>
-
-
-        <div class="row" style="background-image: url('img/bg-article-2.jpg');">
-            <div class="col-md-4 wrapper-1">
-
-                <div class="card-1">
-
-                    <div class="card-1-body">
-                        <h5 class="ml-5 mt-3 text-center ">Yazılım Dilleri</h5>
-                        <p class="font-weight-bold text-center">
-                            HTML5, CSS3 ve SCSS-SASS, JavaScript
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Framework</h5>
-                        <p class="font-weight-bold text-center">
-                            Bootstrap, NodeJS, ReactJS, AngularJS, VueJS
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">SASS&SCSS Kodlarınızı CSS'e uyumlu hale getirmek için: </h5>
-                        <p class="font-weight-bold text-center">
-                            Koala programını kullanabilirsiniz.
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Versiyon kontrol sistemi olarak:</h5>
-                        <p class="font-weight-bold text-center">
-                            Git/Github
-                        </p>
+    <article>
+        <div id="fea-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="font-weight-bold">
+                            Front-End Developer <br> Alt Unvanları</h1>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-success font-weight-bold">CSS/HTML Developer</li>
+                            <li class="list-group-item active font-weight-bold">Front-End Web Developer</li>
+                            <li class="list-group-item bg-danger font-weight-bold">Front-End JavaScript Developer</li>
+                            <li class="list-group-item bg-warning font-weight-bold">Front-End Software Developer</li>
+                            <li class="list-group-item bg-info font-weight-bold">Front-End JavaScript Application
+                                Developer
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-info font-weight-bold">Mobile/Tablet Front-end Developer</li>
+                            <li class="list-group-item bg-warning font-weight-bold">Front-End SEO Expert</li>
+                            <li class="list-group-item bg-danger font-weight-bold">Front-End Accessibility Expert</li>
+                            <li class="list-group-item active font-weight-bold">Web/Front-End User Interface Developer
+                            </li>
+                            <li class="list-group-item bg-success font-weight-bold">Front-End Dev. Opts</li>
+                            <li class="list-group-item bg-dark text-muted font-weight-bold">Front-End Testing/QA</li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-4 wrapper-1">
 
-                <div class="card-2">
 
-                    <div class="card-2-body">
-                        <h5 class="ml-5 mt-3 text-center">Proje Görev Kontrol Uygulamaları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Trello, Asana vb.
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Kullanabileceğiniz IDE'ler:</h5>
-                        <p class="font-weight-bold text-center">
-                            VS Code, Brackets, Sublime Text, Webstorm
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Tasarım Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Adobe Illustrator, Adobe Photoshop
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Server Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Filezilla, FTP, DNS, TCP/IP
-                        </p>
+            <div class="row" style="background-image: url('img/bg-article-2.jpg');">
+                <div class="col-md-4 wrapper-1">
+
+                    <div class="card-1">
+
+                        <div class="card-1-body">
+                            <h5 class="ml-5 mt-3 text-center ">Yazılım Dilleri</h5>
+                            <p class="font-weight-bold text-center">
+                                HTML5, CSS3 ve SCSS-SASS, JavaScript
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Framework</h5>
+                            <p class="font-weight-bold text-center">
+                                Bootstrap, NodeJS, ReactJS, AngularJS, VueJS
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">SASS&SCSS Kodlarınızı CSS'e uyumlu hale getirmek için:
+                            </h5>
+                            <p class="font-weight-bold text-center">
+                                Koala programını kullanabilirsiniz.
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Versiyon kontrol sistemi olarak:</h5>
+                            <p class="font-weight-bold text-center">
+                                Git/Github
+                            </p>
+                        </div>
                     </div>
+
+                </div>
+
+                <div class="col-md-4 wrapper-1">
+
+                    <div class="card-2">
+
+                        <div class="card-2-body">
+                            <h5 class="ml-5 mt-3 text-center">Proje Görev Kontrol Uygulamaları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Trello, Asana vb.
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Kullanabileceğiniz IDE'ler:</h5>
+                            <p class="font-weight-bold text-center">
+                                VS Code, Brackets, Sublime Text, Webstorm
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Tasarım Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Adobe Illustrator, Adobe Photoshop
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Server Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Filezilla, FTP, DNS, TCP/IP
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 wrapper-1">
+
+                    <div class="card-3">
+
+                        <div class="card-3-body">
+                            <h5 class="ml-5 mt-3 text-center">Metodlar:</h5>
+                            <p class="font-weight-bold text-center">
+                                Responsive Web Tasarım, Semantic HTML, HTML5 APIs(Canvas, Geolocation vs.), Fonksiyonel
+                                programlama, OOP, İçerik Stratejisi, Regular Expressions
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Debug ve Test:</h5>
+                            <p class="font-weight-bold text-center">
+                                Developer/Debugging Tools, Document Object Model(DOM), YSlow or PageSpeed
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Aşina olunması gereken Back-End Teknolojileri:</h5>
+                            <p class="font-weight-bold text-center">
+                                PHP, ASP.NET
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Seo Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Google Analytics, Google webmaster tools, SEO dostu yazılım
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-
-            <div class="col-md-4 wrapper-1">
-
-                <div class="card-3">
-
-                    <div class="card-3-body">
-                        <h5 class="ml-5 mt-3 text-center">Metodlar:</h5>
-                        <p class="font-weight-bold text-center">
-                            Responsive Web Tasarım, Semantic HTML, HTML5 APIs(Canvas, Geolocation vs.), Fonksiyonel
-                            programlama, OOP, İçerik Stratejisi, Regular Expressions
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Debug ve Test:</h5>
-                        <p class="font-weight-bold text-center">
-                            Developer/Debugging Tools, Document Object Model(DOM), YSlow or PageSpeed
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Aşina olunması gereken Back-End Teknolojileri:</h5>
-                        <p class="font-weight-bold text-center">
-                            PHP, ASP.NET
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Seo Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Google Analytics, Google webmaster tools, SEO dostu yazılım
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
 
 
 
@@ -369,7 +414,8 @@
             <ul class="social-icon">
                 <li><i class="fab fa-facebook-f"></i></li>
 
-                <li><a href="https://www.instagram.com/frontendbilgi/" target="_blank" style="color: #666666;"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.instagram.com/frontendbilgi/" target="_blank" style="color: #666666;"><i
+                            class="fab fa-instagram"></i></a></li>
                 <li><i class="fab fa-twitter"></i></li>
                 <li><i class="fab fa-youtube"></i></li>
                 <li><i class="fab fa-linkedin-in"></i></li>

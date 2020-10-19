@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web development, front-end ve back-end hakkında güncel bilgiler">
+    <meta name="keywords"
+        content="HTML5, CSS3, JavaScript, HTML, CSS, front end kime denir, front end ne iş yapar, front-end nedir, web development, back-end teknolojileri, back-end nedir, html kod örnekleri, css kod örnekleri, nasıl yapılır, front end hakkında bilgi">
+    <meta name="author" content="Enes EYMURTEPE">
     <link type="text/css" rel="stylesheet" href="css/reset.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <title>Anasayfa</title>
+    <link rel="shortcut icon" type="img/indir-removebg-preview.png" href="img/indir-removebg-preview.png" />
+    <title>Web Geliştirme Hakkında Bilgi &#8211; Front-End Bilgi</title>
 </head>
 
 <body class="mx-auto">
-
+    <a name="yukari"></a>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
 
@@ -88,390 +93,380 @@
                                 Nedir?</a>
                             <a class="dropdown-item text-danger font-weight-bold" href="jstarihcesi.html">JavaScript
                                 Tarihçesi</a>
-
-
                         </div>
                     </li>
-
-
-
                 </ul>
-
             </div>
-
         </div>
-
     </nav>
 
-    <a name="yukari"></a>
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/web-development.jpg" class="d-block w-100" alt="html5hakkındabilgi">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="d-block w-100" alt="css3hakkındabilgi">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="d-block w-100" alt="javascripthakkındabilgi">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4.jpg" class="d-block w-100" alt="javascripthakkındabilgi">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/5.jpg" class="d-block w-100" alt="javascripthakkındabilgi">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </header>
 
 
-    <header style="background-color: #1d1d25;">
+    <section id="features">
+        <div class="container">
+            <div class="featuresTop border rounded">
+                <h1>
+                    Bir Web Geliştirme Süreci Nasıl İşliyor?
+                </h1>
 
-        <div id="container">
-
-
-            <div id="slider3" class="carousel slide carousel-fade">
-
-                <label for="#slider3" class="bg-warning"></label>
-                <ol class="carousel-indicators">
-                    <li data-target="#slider3" data-slide-to="0" class="active"></li>
-                    <li data-target="#slider3" data-slide-to="1"></li>
-                    <li data-target="#slider3" data-slide-to="2"></li>
-                    <li data-target="#slider3" data-slide-to="3"></li>
-                    <li data-target="#slider3" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src="img/web-development.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p>
-
+                <div class="featuresContent">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="img/do-professional-web-development-web-design-for-you.jpg"
+                                alt="web-development-process" style="width: auto;" class="img-fluid mt-4">
+                            <p class="lead font-weight-bold text-left ml-4 mt-5">
+                                <i class="fas fa-terminal mr-1"></i>
+                                Web geliştirme sürecinin ilk adımında müşterinin istekleri net, anlaşılır ve web
+                                sitesinin nasıl olması
+                                gerektiği, bilgisi alınır.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Bu bilgi ve istek doğrultusunda site haritası çıkarılır.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Tasarımcı bu bilgileri alır ve müşterinin talep ettiği şekilde
+                                kullanılabilirliği ve uygulanabilirliği mümkün olan bir tasarımı çıkarıp
+                                müşterinin onayına sunar.
                             </p>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="img/2.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p>
+                        <div class="col-sm-4">
+                            <img src="img/web-development-process.png" alt="web-development-process"
+                                style="width: auto;" class="img-fluid">
+                            <p class="lead font-weight-bold text-left ml-4 mt-4">
+                                <i class="fas fa-terminal mr-1"></i>
+                                Müşterinin istediğini tasarım ortamına aktarma işlemi yapar. Renk uyumunun nasıl
+                                olacağına karar verilir. vs. Bu kısım biraz sancılı olabiliyor. Tasarım konusunda Steve
+                                Jobs’un sözünü boşuna yazmadık 😉 Onay alınan tasarım .psd ve benzeri formatlarda
+                                front-end developer’ın ekmeğidir. 🙂
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Front-end developer tasarımı alır ve HTML ile CSS yeteneklerini kullanarak sayfayı ayağa
+                                kaldırır. 🙂
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Bu işlem sırasında çoğu zaman Javascript ve kütüphaneleri(jQuery vb.)
+                                kullanıldığında unutulmamalıdır. Statik bir biçimde sitemiz hazır duruma geliyor.
                             </p>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="img/3.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="img/4.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="img/5.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p>
+                        <div class="col-sm-4">
+                            <img src="img/web-developer.png" alt="web-development-process" style="width: auto;"
+                                class="img-fluid">
+                            <p class="lead font-weight-bold text-left ml-4 mt-3">
+                                <i class="fas fa-terminal mr-1"></i>
+                                Statik bir biçimde sitemiz hazır duruma geliyor.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Genelde statik siteden, dinamik siteye geçiş oluyor.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Dinamik sitelerde ise front-end web developerdan çıkan tasarım,
+                                back-end developera geçer.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Web siteye yönetim panelinin programlanması, ürün giriş ve çıkışın olacağı bir
+                                mekanizma programlanması gibi işlemleri back-end developer yapar.
+                                <br>
+                                <i class="fas fa-terminal mr-1 mt-3"></i>
+                                Günümüzde e-ticaret siteleri, haber siteleri vb. dinamik sitelere örnektir.
+
                             </p>
                         </div>
                     </div>
                 </div>
-                <a href="#slider3" class="carousel-control-prev" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a href="#slider3" class="carousel-control-next" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
             </div>
-
         </div>
-    </header>
-    </div>
-    <main style="background-image: url('img/dark-low-poly-background_1048-7971_photos_v2_faces_x2.jpg');"
-        class="img-fluid">
+    </section>
 
-        <section id="left">
-            <div class="container w-100">
-                <div class="row">
-                    <div class="col-6 border border-danger rounded mt-4">
-                        <h1 class="text-center text-success">
-                            Bir Web Geliştirme Süreci Nasıl İşliyor?
-                        </h1>
-                        <img src="img/web-development-process.png" alt="web-gelistirme-sureci" class="img-fluid">
-                        <span class="font-weight-bold text-uppercase text-center">
-                            Bir Web geliştiricinin izlemesi gereken adımlar ise şöyle:
-                        </span>
-                        <p class="lead text-justify">
+    <section id="features-content">
+        <div class="container">
+            <div class="fea-Top">
+                <div class="fea-Top">
+                    <h2>Front-End Developer Kime Denir?</h2>
+                </div>
+            </div>
+            <div class="fea-Content">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <img src="img/front-end-developer-skills.jpg" alt="front-end-developer-skills" class="img-fluid"
+                            style="width: 100%;">
+
+                        <p class="lead font-weight-bold text-left mt-5">
                             <i class="fas fa-terminal mr-1"></i>
-
-                            Öncelikle müşterinin istekleri net anlaşılır ve web sitenin nasıl olması gerektiği bilgisi
-                            alınır.
-
+                            Genellikle Front-End, web tasarım ve Front-End web geliştirme olarak
+                            iki kısımdan oluşmaktadır.
                             <br>
                             <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Bu bilgi ve istek doğrultusunda site haritaları çıkartılır.
-                            <br>
-
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Tasarımcı bu bilgileri alır ve müşterinin talep ettiği şekilde kullanılabilirliği ve
-                            uygulanabilirliği mümkün olan bir tasarımı çıkartıp müşterinin onayına sunar.
-
-                            <br>
-
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Müşterinin istediğini tasarım ortamına aktarma işlemi yapar.
-                            (Tasarım konusunda Steve Jobs’un sözünü boşuna yazmadık 😉 Onay alınan tasarım .psd ve
-                            benzeri
-                            formatlarda front-end developer’ın ekmeğidir. 🙂)
-                            <br>
-
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Front-end developer tasarımı alır ve HTML ile CSS yeteneklerini kullanarak sayfayı ayağa
-                            kaldırır.
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Bu işlem sırasında çoğu zaman Javascript ve kütüphaneleri (jQuery vb.) kullanıldığında
-                            unutulmamalıdır.
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Statik bir biçimde sitemiz hazır duruma geliyor.
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Genelde statik siteden dinamik siteye geçiş oluyor.
-
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Dinamik sitelerde ise front-end web developerdan çıkan tasarım back-end developer olan
-                            kişilere geçer.
-
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Web siteye yönetim panelinin programlanması, ürün giriş ve çıkışın olacağı bir mekanizma
-                            programlanması gibi işlemleri back-end developer yapar.
-
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Günümüzde e-ticaret siteleri, haber siteleri vb. dinamik sitelere örnektir.
-                        </p>
-                    </div>
-
-
-                    <div class="col-5 ml-5 mt-4">
-
-                        <h1 class="text-center text-success">
-                            Front-End Developer Kime Denir?
-                        </h1>
-
-                        <img src="img/front-end-developer-skills.jpg" alt="frontendbilmesigerekenler" class="img-fluid">
-
-                        <p class="lead">
-                            <i class="fas fa-terminal mr-1 mt-5"></i>
-                            Genellikle Front-End, web tasarım ve front-end web geliştirme olarak iki kısımdan
-                            oluşmaktadır.
-                            <br>
-                            <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Web tasarım ve Front-End developer kısımlarının ayrı birer alan olduğunu web geliştirme
-                            sürecinde nasıl ayrıldığını biliyoruz.
-
+                            Web tasarım ve Front-End developer kısımlarının ayrı birer alan olduğunu,
+                            web geliştirme sürecinde nasıl ayrıldığını biliyoruz.
                             <br>
                             <i class="fas fa-terminal mr-1 mt-4"></i>
                             Yani Front-End developer, bir web sitesinin ön yüzünü kodlayan programcıdır.
-
                             <br>
-
                             <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Genellikle tasarım dosyasını HTML, CSS ve JavaScript (JS) kullanarak web site halini
-                            almasını sağlayan kişidir.
+                            Genellikle tasarım dosyasını HTML5, CSS3 ve JavaScript (JS)
+                            kullanarak web site halini almasını sağlayan kişidir.
                             <br>
-
                             <i class="fas fa-terminal mr-1 mt-4"></i>
-                            Web site düzeni, resimler, içerik, butonlar ve linkleri içeren web sitenin ön yüz yapısının
-                            kod kısmı ile ilgilenirler.
+                            Web site düzeni, resimler, içerik, butonlar ve linkleri içeren web sitenin ön
+                            yüz yapısının kod kısmı ile ilgilenirler.
                         </p>
+
                     </div>
 
+
                 </div>
-
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <div class="container w-50 box-right">
+    <section id="fea-info">
 
+        <div class="container">
             <button type="button" class="btn btn-warning">
+
                 Peki Bir Front-End Developer Zamanını Nasıl Kullanır ? <span class="badge badge-light">
                     <i class="fad fa-clock"></i>
                 </span>
             </button>
+            <div class="row ">
+                <div class="col-md-6">
 
 
-            <div class="card text-white bg-primary mb-3">
-                <div class="card-header">Ortak çalışır</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Müşteriler, içerik oluştucu, back-end developer ve proje yöneticisi ile
-                        etkileşim içindedir.</p>
+                    <div class="card text-white bg-primary mb-3">
+                        <div class="card-header">Ortak çalışır</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Müşteriler, içerik oluştucu, back-end developer ve proje yöneticisi ile
+                                etkileşim içindedir.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">Sözlü tercümandır</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Tasarımcının hayal gücünü, renk şemalarını, yazı tiplerini, başlıkları
+                                kod
+                                ortamına aktaran ve sayfaları bütünleştiren kişidir.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header">Birleştirendir</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Tasarımcı ve back-end developer’ın tam ortasında olduğu için onlarla
+                                paslaşır.
+                                Tasarımı parçalar ve web sitelerin her bir parçasının çalışır vaziyette kodunu
+                                geliştirir.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card text-white bg-secondary mb-3">
-                <div class="card-header">Sözlü tercümandır</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Tasarımcının hayal gücünü, renk şemalarını, yazı tiplerini, başlıkları kod
-                        ortamına aktaran ve sayfaları bütünleştiren kişidir.</p>
-                </div>
-            </div>
-            <div class="card text-white bg-success mb-3">
-                <div class="card-header">Birleştirendir</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Tasarımcı ve back-end developer’ın tam ortasında olduğu için onlarla paslaşır.
-                        Tasarımı parçalar ve web sitelerin her bir parçasının çalışır vaziyette kodunu geliştirir.</p>
-                </div>
-            </div>
-            <div class="card text-white bg-danger mb-3">
-                <div class="card-header">Test edendir</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Bir çok farklı browser ve platform da web sitesinin işlevselliğine bakmalıdır.
-                    </p>
-                </div>
-            </div>
-            <div class="card text-white bg-warning mb-3">
-                <div class="card-header">En iyileştiricidir</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Kullanılabilir, erişilebilir SEO dostu web siteler ortaya çıkartmalıdır.</p>
-                </div>
-            </div>
-            <div class="card text-white bg-dark mb-3">
-                <div class="card-header">Sağlamlaştırma yapandır</div>
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">Çalışıyordu ama şimdi çalışmıyor olayı olmamalıdır. Web site her zaman
-                        çalışmalıdır.</p>
-                </div>
-            </div>
 
-
+                <div class="col-md-6">
+                    <div class="card text-white bg-danger mb-3">
+                        <div class="card-header">Test edendir</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Bir çok farklı browser ve platform da web sitesinin işlevselliğine
+                                bakmalıdır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-header">En iyileştiricidir</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Kullanılabilir, erişilebilir SEO dostu web siteler ortaya
+                                çıkartmalıdır.</p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header">Sağlamlaştırma yapandır</div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Çalışıyordu ama şimdi çalışmıyor olayı olmamalıdır. Web site her zaman
+                                çalışmalıdır.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-
-    </main>
-
-
-    <article style="background-image: url('img/bg-article-1.jpg'); background-position: center;" class="img-fluid">
-
-        <div class="container w-100 col-sm-12">
-
-            <h1 class="font-weight-bold text-center">
-                Front-End Developer <br> Alt Unvanları</h1>
-            <ul class="list-group">
-                <li class="list-group-item bg-success font-weight-bold">CSS/HTML Developer</li>
-                <li class="list-group-item active font-weight-bold">Front-End Web Developer</li>
-                <li class="list-group-item bg-danger font-weight-bold">Front-End JavaScript Developer</li>
-                <li class="list-group-item bg-warning font-weight-bold">Front-End Software Developer</li>
-                <li class="list-group-item bg-info font-weight-bold">Front-End JavaScript Application Developer</li>
-            </ul>
-
-            <ul class="list-group">
-                <li class="list-group-item bg-info font-weight-bold">Mobile/Tablet Front-end Developer</li>
-                <li class="list-group-item bg-warning font-weight-bold">Front-End SEO Expert</li>
-                <li class="list-group-item bg-danger font-weight-bold">Front-End Accessibility Expert</li>
-                <li class="list-group-item active font-weight-bold">Web/Front-End User Interface Developer</li>
-                <li class="list-group-item bg-success font-weight-bold">Front-End Dev. Opts</li>
-                <li class="list-group-item bg-dark text-muted font-weight-bold">Front-End Testing/QA</li>
-            </ul>
-
-        </div>
-
-
-        <div class="row" style="background-image: url('img/bg-article-2.jpg');" class="img-fluid">
-            <div class="col-md-4 wrapper-1">
-
-                <div class="card-1">
-
-                    <div class="card-1-body">
-                        <h5 class="ml-5 mt-3 text-center ">Yazılım Dilleri</h5>
-                        <p class="font-weight-bold text-center">
-                            HTML5, CSS3 ve SCSS-SASS, JavaScript
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Framework</h5>
-                        <p class="font-weight-bold text-center">
-                            Bootstrap, NodeJS, ReactJS, AngularJS, VueJS
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">SASS&SCSS Kodlarınızı CSS'e uyumlu hale getirmek için: </h5>
-                        <p class="font-weight-bold text-center">
-                            Koala programını kullanabilirsiniz.
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Versiyon kontrol sistemi olarak:</h5>
-                        <p class="font-weight-bold text-center">
-                            Git/Github
-                        </p>
+    <article>
+        <div id="fea-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="font-weight-bold">
+                            Front-End Developer <br> Alt Unvanları</h1>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-success font-weight-bold">CSS/HTML Developer</li>
+                            <li class="list-group-item active font-weight-bold">Front-End Web Developer</li>
+                            <li class="list-group-item bg-danger font-weight-bold">Front-End JavaScript Developer</li>
+                            <li class="list-group-item bg-warning font-weight-bold">Front-End Software Developer</li>
+                            <li class="list-group-item bg-info font-weight-bold">Front-End JavaScript Application
+                                Developer
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-info font-weight-bold">Mobile/Tablet Front-end Developer</li>
+                            <li class="list-group-item bg-warning font-weight-bold">Front-End SEO Expert</li>
+                            <li class="list-group-item bg-danger font-weight-bold">Front-End Accessibility Expert</li>
+                            <li class="list-group-item active font-weight-bold">Web/Front-End User Interface Developer
+                            </li>
+                            <li class="list-group-item bg-success font-weight-bold">Front-End Dev. Opts</li>
+                            <li class="list-group-item bg-dark text-muted font-weight-bold">Front-End Testing/QA</li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-4 wrapper-1">
 
-                <div class="card-2">
+            <div class="row" style="background-image: url('img/bg-article-2.jpg');" class="img-fluid">
+                <div class="col-md-4 wrapper-1">
 
-                    <div class="card-2-body">
-                        <h5 class="ml-5 mt-3 text-center">Proje Görev Kontrol Uygulamaları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Trello, Asana vb.
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Kullanabileceğiniz IDE'ler:</h5>
-                        <p class="font-weight-bold text-center">
-                            VS Code, Brackets, Sublime Text, Webstorm
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Tasarım Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Adobe Illustrator, Adobe Photoshop
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Server Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Filezilla, FTP, DNS, TCP/IP
-                        </p>
+                    <div class="card-1">
+
+                        <div class="card-1-body">
+                            <h5 class="ml-5 mt-3 text-center ">Yazılım Dilleri</h5>
+                            <p class="font-weight-bold text-center">
+                                HTML5, CSS3 ve SCSS-SASS, JavaScript
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Framework</h5>
+                            <p class="font-weight-bold text-center">
+                                Bootstrap, NodeJS, ReactJS, AngularJS, VueJS
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">SASS&SCSS Kodlarınızı CSS'e uyumlu hale getirmek için:
+                            </h5>
+                            <p class="font-weight-bold text-center">
+                                Koala programını kullanabilirsiniz.
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Versiyon kontrol sistemi olarak:</h5>
+                            <p class="font-weight-bold text-center">
+                                Git/Github
+                            </p>
+                        </div>
                     </div>
+
+                </div>
+
+                <div class="col-md-4 wrapper-1">
+
+                    <div class="card-2">
+
+                        <div class="card-2-body">
+                            <h5 class="ml-5 mt-3 text-center">Proje Görev Kontrol Uygulamaları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Trello, Asana vb.
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Kullanabileceğiniz IDE'ler:</h5>
+                            <p class="font-weight-bold text-center">
+                                VS Code, Brackets, Sublime Text, Webstorm
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Tasarım Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Adobe Illustrator, Adobe Photoshop
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Server Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Filezilla, FTP, DNS, TCP/IP
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 wrapper-1">
+
+                    <div class="card-3">
+
+                        <div class="card-3-body">
+                            <h5 class="ml-5 mt-3 text-center">Metodlar:</h5>
+                            <p class="font-weight-bold text-center">
+                                Responsive Web Tasarım, Semantic HTML, HTML5 APIs(Canvas, Geolocation vs.), Fonksiyonel
+                                programlama, OOP, İçerik Stratejisi, Regular Expressions
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">Debug ve Test:</h5>
+                            <p class="font-weight-bold text-center">
+                                Developer/Debugging Tools, Document Object Model(DOM), YSlow or PageSpeed
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Aşina olunması gereken Back-End Teknolojileri:</h5>
+                            <p class="font-weight-bold text-center">
+                                PHP, ASP.NET
+                            </p>
+                            <h5 class="ml-5 mt-3 text-center">
+                                Seo Araçları:</h5>
+                            <p class="font-weight-bold text-center">
+                                Google Analytics, Google webmaster tools, SEO dostu yazılım
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="col-md-4 wrapper-1">
 
-                <div class="card-3">
-
-                    <div class="card-3-body">
-                        <h5 class="ml-5 mt-3 text-center">Metodlar:</h5>
-                        <p class="font-weight-bold text-center">
-                            Responsive Web Tasarım, Semantic HTML, HTML5 APIs(Canvas, Geolocation vs.), Fonksiyonel
-                            programlama, OOP, İçerik Stratejisi, Regular Expressions
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">Debug ve Test:</h5>
-                        <p class="font-weight-bold text-center">
-                            Developer/Debugging Tools, Document Object Model(DOM), YSlow or PageSpeed
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Aşina olunması gereken Back-End Teknolojileri:</h5>
-                        <p class="font-weight-bold text-center">
-                            PHP, ASP.NET
-                        </p>
-                        <h5 class="ml-5 mt-3 text-center">
-                            Seo Araçları:</h5>
-                        <p class="font-weight-bold text-center">
-                            Google Analytics, Google webmaster tools, SEO dostu yazılım
-                        </p>
-                    </div>
-                </div>
-
-            </div>
 
         </div>
-
-
-
-
     </article>
 
     <footer
-        style="background-image: url(img/Contact-Us-Background_photos_v2_faces_x2.jpg); background-position: center; background-size: contain;">
+        style="background-image: url(img/Contact-Us-Background_photos_v2_faces_x2.jpg); background-position: center; background-size: cover; background-attachment: fixed;">
 
         <div class="container wrapper-2">
             <h3 class="text-uppercase">Contact Us</h3>
