@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Web development, front-end ve back-end hakkında güncel bilgiler">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript, HTML, CSS, front end kime denir, front end ne iş yapar, front-end nedir, web development, back-end teknolojileri, back-end nedir, html kod örnekleri, css kod örnekleri, nasıl yapılır, front end hakkında bilgi">
+    <meta name="keywords"
+        content="HTML5, CSS3, JavaScript, HTML, CSS, front end kime denir, front end ne iş yapar, front-end nedir, web development, back-end teknolojileri, back-end nedir, html kod örnekleri, css kod örnekleri, nasıl yapılır, front end hakkında bilgi">
     <meta name="author" content="Enes EYMURTEPE">
     <link rel="shortcut icon" type="img/indir-removebg-preview.png" href="img/indir-removebg-preview.png" />
     <link type="text/css" rel="stylesheet" href="css/reset.css">
@@ -20,82 +21,55 @@
 <body class="mx-auto">
     <a name="yukari"></a>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 
-        <div class="container mt-2 mx-5">
-            <a href="index.html">
-                <img src="img/logo.svg" class="shine" alt="frontendhakkındabilgi">
-            </a>
+        <a href="index.html" class="navbar-brand">
+            <img src="img/logo.svg" alt="frontendlogo" class="ml-4 shine" style="width: 60px;">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#ac_kapa">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link blink text-danger" href="index.html">
-                            <i class="fas fa-home">
-                                Anasayfa </i><span class="sr-only">(current)</span></a>
-                    </li>
+        <div id="ac_kapa"" class=" collapse navbar-collapse justify-content-center responsive">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fab fa-html5 font-weight-bold">
-                                HTML5
-                            </i>
-                        </a>
-                        <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-danger font-weight-bold" href="html5nedir.html">HTML5
-                                Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="html5intarihcesi.html">HTML5'in
-                                Tarihçesi ve Sayfa Yapısı</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="semantic.html">Semantic HTML
-                                Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="html5kodornekleri.html">HTML5
-                                Kod Örnekleri</a>
-                        </div>
-                    </li>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link ml-4 blink text-danger"><i
+                            class="fas fa-home font-weight-bold"><span class="ml-1">Anasayfa</span></i></a></li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fab fa-css3 font-weight-bold">
-                                CSS3
-                            </i>
-                        </a>
-                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-danger font-weight-bold" href="css3nedir.html">CSS3 Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold"
-                                href="css3tarihcesiveozellik.html">CSS3'ün Temel Özellikleri Tarihçesi</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="css3syntax.html">CSS3 Kod
-                                Örnekleri</a>
-                        </div>
-                    </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link ml-4 dropdown-toggle text-white" data-toggle="dropdown"><i
+                            class="fab fa-html5 font-weight-bold"><span class="ml-2">HTML5</span></i></a>
+                    <div class="dropdown-menu">
+                        <a href="html5nedir.html" class="dropdown-item">HTML5 Nedir?</a>
+                        <a href="html5intarihcesi.html" class="dropdown-item">HTML5'in Tarihçesi</a>
+                        <a href="semantic.html" class="dropdown-item">Semantic HTML Nedir?</a>
+                        <a href="html5kodornekleri.html" class="dropdown-item">HTML5 Kod Örnekleri</a>
+                    </div>
+                </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fab fa-js-square font-weight-bold">
-                                JavaScript
-                            </i>
-                        </a>
-                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-danger font-weight-bold" href="jsnedir.html">JavaScript
-                                Nedir?</a>
-                            <a class="dropdown-item text-danger font-weight-bold" href="jstarihcesi.html">JavaScript'in
-                                Tarihçesi</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link ml-4 dropdown-toggle text-white" data-toggle="dropdown"><i
+                            class="fab fa-css3 font-weight-bold"> <span class="ml-1">CSS3</span></i></a>
+                    <div class="dropdown-menu">
+                        <a href="css3nedir.html" class="dropdown-item">CSS3 Nedir?</a>
+                        <a href="css3tarihcesiveozellik.html" class="dropdown-item">CSS3'ün Özellikleri</a>
+                        <a href="css3syntax.html" class="dropdown-item">CSS3 Kod Örnekleri</a>
+                    </div>
+                </li>
 
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link ml-4 dropdown-toggle text-white" data-toggle="dropdown"><i
+                            class="fab fa-js-square font-weight-bold"> <span class="ml-1"> JavaScript</span></i></a>
+                    <div class="dropdown-menu">
+                        <a href="jsnedir.html" class="dropdown-item">JavaScript Nedir?</a>
+                        <a href="jstarihcesi.html" class="dropdown-item">JavaScript'in Tarihçesi</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-
     </nav>
+
 
 
 
@@ -411,22 +385,27 @@
     </article>
 
     <footer
-        style="background-image: url(img/Contact-Us-Background_photos_v2_faces_x2.jpg); background-position: center; background-size: contain;">
+        style="background-image: url(img/Contact-Us-Background_photos_v2_faces_x2.jpg); background-position: center; background-size: cover; background-attachment: fixed;">
 
         <div class="container wrapper-2">
             <h3 class="text-uppercase">Contact Us</h3>
 
             <ul class="social-icon">
-                <li><i class="fab fa-facebook-f"></i></li>
-
+                <li><a href="https://www.facebook.com/profile.php?id=100005580429391" target="_blank"
+                        style="color: #666666;"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.instagram.com/frontendbilgi/" target="_blank" style="color: #666666;"><i
                             class="fab fa-instagram"></i></a></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-youtube"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><a href="https://twitter.com/EEymurtepe" target="_blank" style="color: #666666;"><i
+                            class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCWTKxoeDe3JtcueEGaDk-sQ?view_as=subscriber"
+                        target="_blank" style="color: #666666;"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/enes-eymurtepe-b5aa17177/" target="_blank"
+                        style="color: #666666;"><i class="fab fa-linkedin-in"></i></a></li>
 
 
         </div>
+
+
         <a href="#yukari" class="social-icon" id="btnPopover" href="#" data-toggle="popover" data-trigger="hover"
             title="Yukarı Çık" data-content="some content">
             <i class="fas fa-arrow-circle-up fa-2x"></i>
